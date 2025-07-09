@@ -115,16 +115,16 @@ main article img {
     padding-right: 210px;
     
 }
-main article img .news_wrap {
+main article .news_wrap {
     display: flex;
 
 }
-main article img .news_wrap .container { 
+main article .news_wrap .container { 
     width: 100%;
     display: flex;
     flex-flow: row wrap;
 }
-main article img .news_wrap .container .card_1 {
+main article .news_wrap .container .card {
     /* position: relative; */
     width: calc(100% / 2);
 
@@ -135,7 +135,7 @@ main article img .news_wrap .container .card_1 a{
 main article .news_wrap .container .card_1 a img{
     width: 747px; height: 300px;
 }
-main article img .news_wrap .container .card_1 a h2{
+main article .news_wrap .container .card_1 a h2{
     font-size: 1.625rem;
 }
 main article img .news_wrap .container .card_1 a .news{}
